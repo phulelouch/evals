@@ -12,7 +12,7 @@ coqa-fact:
 coqa-fact.dev.v0:
   class: evals.elsuite.modelgraded.classify:ModelBasedClassify
   args:
-    samples_jsonl: coqa/samples.jsonl
+    samples_jsonl: coqa/fact/samples.jsonl
     eval_type: cot_classify
     modelgraded_spec: fact
 
@@ -32,7 +32,7 @@ coqa-closedqa:
 coqa-closedqa.dev.v0:
   class: evals.elsuite.modelgraded.classify:ModelBasedClassify
   args:
-    samples_jsonl: coqa/samples.jsonl
+    samples_jsonl: coqa/expert/samples.jsonl
     modelgraded_spec: closedqa
 
 # (same as above, but only evaluate criteria=correct)
