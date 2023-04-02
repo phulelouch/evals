@@ -21,4 +21,4 @@ fact:
   choice_strings: ABCDE
   input_outputs:
     input: completion
-    question: completion
+    question: completion2
