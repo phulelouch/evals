@@ -19,4 +19,3 @@ fact:
     (D) There is a disagreement between the submitted answer and the expert answer.
     (E) The answers differ, but these differences don't matter from the perspective of factuality.
   choice_strings: ABCDE
-  input_outputs:
