@@ -3,11 +3,11 @@ fact:
     You are comparing a submitted answer to an expert answer on a given question. Here is the data:
     [BEGIN DATA]
     ************
-    [Question]: {question}
+    [Question]: {question_completion}
     ************
     [Expert]: {ideal}
     ************
-    [Submission]: {input}
+    [Submission]: {completion}
     ************
     [END DATA]
 
@@ -21,4 +21,5 @@ fact:
   choice_strings: ABCDE
   input_outputs:
     input: completion
-    question: completion2
+    question: question_completion
+  
