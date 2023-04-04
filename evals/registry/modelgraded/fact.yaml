@@ -7,7 +7,7 @@ fact:
     ************
     [Expert]: {ideal}
     ************
-    [Submission]: {completion}
+    [Submission]: {input}
     ************
     [END DATA]
 
@@ -20,6 +20,7 @@ fact:
     (E) The answers differ, but these differences don't matter from the perspective of factuality.
   choice_strings: ABCDE
   input_outputs:
-    input: completion
     question: question_completion
+  
+
   
