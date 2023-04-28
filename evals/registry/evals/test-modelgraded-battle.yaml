@@ -40,3 +40,13 @@ rap-people-vs-fruits.dev.v0:
     eval_type: cot_classify
     modelgraded_spec: battle
 
+stack-overflow-vs-human:
+  id: stack-overflow-vs-human
+  metrics: [accuracy]
+stack-overflow-vs-human.dev.v0:
+  class: evals.elsuite.modelgraded.classify:ModelBasedClassify
+  args:
+    samples_jsonl: test_multiio/battles/stack-overflow-vs-human.jsonl
+    eval_type: cot_classify
+    modelgraded_spec: battle-so-vs-human
+
