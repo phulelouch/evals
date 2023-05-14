@@ -46,4 +46,6 @@ battle-so-vs-human:
     "Yes": 1.0
     "No": 0.0
   input_outputs:
-     question:completion
+    question: completion1
+    
+  
